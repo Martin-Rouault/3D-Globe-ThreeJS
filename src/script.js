@@ -41,7 +41,7 @@ scene.add(stars);
 /**
  * GeoJson
  */
-fetch("./geoJson/ne_110m_land.json")
+fetch("./ne_110m_land.json")
   .then((response) => response.text())
   .then((text) => {
     const data = JSON.parse(text);
