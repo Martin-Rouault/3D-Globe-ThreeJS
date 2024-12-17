@@ -1,4 +1,4 @@
 [[headers]]
-  for = "./admin.html"
+  for = "./admin.html/"
   [headers.values]
 Basic-Auth = "martin:1234 lucas:4567"
