@@ -6,6 +6,7 @@ import { drawThreeGeo } from "./threeGeoJSON";
 /**
  * Base
  */
+console.log("test");
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
